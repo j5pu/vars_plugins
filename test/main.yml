@@ -1,0 +1,9 @@
+---
+- name: Prueba
+  hosts: all
+
+  tasks:
+    - debug: var=ssh_port
+    - debug: var=PYCHARM_PROPERTIES
+    - debug: var=TERM
+    - debug: var=wireguard_ip
