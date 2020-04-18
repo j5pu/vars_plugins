@@ -168,4 +168,4 @@ cython_debug/
 ### Ansible template
 *.retry
 
-.idea
+.idea/
